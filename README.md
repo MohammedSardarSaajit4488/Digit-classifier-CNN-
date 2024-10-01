@@ -41,6 +41,7 @@ You can install the required packages using `pip`:
 ```bash
 pip install tensorflow keras numpy pandas matplotlib seaborn scikit-learn
 
+
 How to Run
 Clone the repository:
 
@@ -65,7 +66,7 @@ Performance Comparison: CNN outperformed traditional machine learning models, su
 Logistic Regression: 91.8% accuracy
 SVM: 97% accuracy
 Random Forest: 95.9% accuracy
-k-NN: 95.9% accuracy
+***k-NN: 95.9% accuracy***
 Future Work
 Model Optimization: Further exploration of hyperparameter tuning to improve accuracy.
 Generalization: Testing on additional datasets or real-world applications.
@@ -74,4 +75,4 @@ Acknowledgements
 This project was guided by Anoop Garg and completed as part of a summer training program at Lovely Professional University.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the GNU License - see the LICENSE file for details
