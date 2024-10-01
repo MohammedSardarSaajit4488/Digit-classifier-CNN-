@@ -40,3 +40,38 @@ You can install the required packages using `pip`:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib seaborn scikit-learn
+
+How to Run
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/digit-classifier.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd digit-classifier
+Run the Python script to train the model and evaluate the results:
+
+bash
+Copy code
+python digit_classifier_cnn.py
+After training, the model's accuracy will be displayed along with a confusion matrix and other metrics.
+
+Results
+Accuracy: The CNN model achieved an accuracy of 98% on the MNIST test dataset.
+Performance Comparison: CNN outperformed traditional machine learning models, such as:
+Logistic Regression: 91.8% accuracy
+SVM: 97% accuracy
+Random Forest: 95.9% accuracy
+k-NN: 95.9% accuracy
+Future Work
+Model Optimization: Further exploration of hyperparameter tuning to improve accuracy.
+Generalization: Testing on additional datasets or real-world applications.
+Deployment: Implementing model compression and optimization for deployment in resource-constrained environments.
+Acknowledgements
+This project was guided by Anoop Garg and completed as part of a summer training program at Lovely Professional University.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details
